@@ -3,6 +3,7 @@
 <h4>简介</h4>
 string-sql生成器是一个简单实用的基于string的sql生成器，支持通过创建者风格生成string类型的sql语句，有助于不实用ORM框架的用户灵活搭配sql， 所有的表名，字段，占位符均需要用户输入。
 <h4>使用说明</h4>
+
 ```java
 // 不严格的builder，可以使用任意字段
 NonStrictQueryBuilder builder = SqlBuilderFactory.nonStrictSqlBuilder();
