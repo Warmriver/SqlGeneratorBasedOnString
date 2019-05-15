@@ -1,8 +1,10 @@
-<h2>sql生成器</h2>
-<h3>简介<h3>
-string-sql生成器是一个简单实用的基于string的sql生成器，支持通过创建者风格生成string类型的sql语句，有助于不实用ORM框架的用户灵活搭配sql， 所有的表名，字段，占位符均需要用户输入。
-<h3>使用说明</h3>
+Chinese
+sql生成器
 
+简介
+string-sql生成器是一个简单实用的基于string的sql生成器，支持通过创建者风格生成string类型的sql语句，有助于不实用ORM框架的用户灵活搭配sql， 所有的表名，字段，占位符均需要用户输入。
+
+使用说明
 ```java
 // 不严格的builder，可以使用任意字段
 NonStrictQueryBuilder builder = SqlBuilderFactory.nonStrictSqlBuilder();
@@ -24,11 +26,11 @@ String sql = SqlBuilderFactory.strictSqlBuilder()
 
 ```
 
-
-<h2>sql generator based on string</h2>
-<h3>INTRODUCTION<h3>
+English
+<h3>sql generator based on string</h3>
+<h4>INTRODUCTION<h4>
 string-sql generator is a easy to use tool to generate valid sqls. It helps those who don't want to use a ORM software to manage their sql in a more flexible way. User has to fill table names, fields and placeholders themselves in string。
-<h3>USAGE</h3>
+<h4>USAGE</h4>
 
 ```java
 // builder require no sql structure validation
